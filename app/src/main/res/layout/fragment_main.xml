@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".presentation.fragments.MainFragment">
+
+    <TextView
+        android:id="@+id/tvEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/english"
+        android:drawableRight="@drawable/ic_baseline_done_24px"/>
+
+    <TextView
+        android:id="@+id/tvRussian"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/russian"
+        android:layout_below="@+id/tvEnglish" />
+
+    <TextView
+        android:id="@+id/tvUkrainian"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/ukrainian"
+        android:layout_below="@+id/tvRussian" />
+
+    <TextView
+        android:id="@+id/tvPolish"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/polish"
+        android:layout_below="@+id/tvUkrainian" />
+
+</RelativeLayout>

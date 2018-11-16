@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+     tools:ignore="MissingDefaultResource">
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="250"
+        android:propertyName="x"
+        android:valueFrom="0"
+        android:valueTo="-1960"
+        android:valueType="floatType"/>
+
+</set>
